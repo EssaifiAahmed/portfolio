@@ -1,0 +1,52 @@
+.languagepicker {
+	background-color: rgb(44, 43, 43);
+	display: inline-block;
+	padding: 0;
+	height: 36px;
+	overflow: hidden;
+	transition: all .3s ease;
+}
+
+.languagepicker:hover {
+	/* don't forget the 1px border */
+	height: 81px;
+}
+
+.languagepicker a{
+	color: #000;
+	text-decoration: none;
+}
+
+.languagepicker li {
+	display: block;
+	padding: 0px 20px;
+	line-height: 40px;
+	border-top: 1px solid rgb(44, 43, 43);
+}
+
+.languagepicker li:hover{
+	background-color: rgb(44, 43, 43);
+}
+
+.languagepicker a:first-child li {
+	border: none;
+	background: rgb(44, 43, 43) !important;
+}
+
+.languagepicker li img {
+	margin-right: 10px;
+}
+
+.roundborders {
+	border-radius: 5px;
+}
+
+.large:hover {
+	height: 90px;
+}
+#engimg{
+	margin-top: -10px;
+}
+#frimg{
+	margin-top: -10px;
+}
